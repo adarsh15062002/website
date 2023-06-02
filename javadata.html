@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .navbar{position: fixed;
+    width: 100%;
+    background-color: green;
+}
+.shiv{list-style-type: none;
+margin-top: 30px;
+padding: 0px;
+height: 100%;
+background-color: #f0f0f0;
+position: fixed;
+overflow: auto;}
+li a{text-decoration: none;
+float: left;
+display: block;
+padding: 10px 20px;
+color:black;}
+.name{width: 800px;
+margin-left: 150px;
+margin-top: 20px;}
+p{font-size: 18px;}
+pre{font-size: 20px;
+color:rgb(207, 93, 93);}
+h2{color: #66004d;}
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-">
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href=""></a>
+        </div>
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="logicgate.html">Home</a></li>
+        <li class="active"><a href="">truth Table</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="">Logic Gate 
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href=""></a>AND gate</li>
+        <li><a href=""></a>OR/XOR gate</li>
+        <li><a href=""></a>NOT gate</li>
+        <li><a href=""></a>NAND gate</li>
+        <li><a href=""></a>NOR gate</li>
+        <li><a href=""></a>EOR gate</li>
+        <li><a href=""></a>ENOR gate</li>
+        </ul>
+        </li>
+        <li><a href="contect.html">Contect</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        </ul>
+        <form class="navbar-form navbar-left" action="">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-login"></span> Login</a></li>
+                </ul>
+        </div>
+       </nav>
+      </ul><br>
+      <ol class="shiv">
+        <li><a href="java.html">Java Intro</a></li>
+        <li><a href="">Java Data Types</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ol>
+      <div class="name container">
+      <h2>Data Types in Java</h2>
+      <p>Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:</p>
+      <ol>
+        <li>Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.</li>
+        <li>Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.</li>
+      </ol>
+      <h3>Java Primitive Data Types</h3>
+      <p>In Java language, primitive data types are the building blocks of data manipulation. These are the most basic data types available in Java language.</p>
+      <p>There are 8 types of primitive data types:</p>
+      <ul>
+        <li>boolean data type</li>
+        <li>byte data type</li>
+        <li>char data type</li>
+        <li>short data type</li>
+        <li>int data type</li>
+        <li>long data type</li>
+        <li>float data type</li>
+        <li>double data type</li>
+      </ul>
+      
+      <table class="table table-striped table-bordered table-hover">
+        <tr class="sucess">
+            <th>Data Type</th>
+            <th>Default value</th>
+            <th>Default Size</th>
+        </tr>
+        <tr class="info">
+            <td>boolen</td>
+            <td>false</td>
+            <td>1bit</td>
+        </tr>
+        <tr class="warning">
+            <td>char</td>
+            <td>'\u0000</td>
+            <td>2byte</td>
+        </tr>
+        <tr>
+            <td>byte</td>
+            <td>0</td>
+            <td>1byte</td>
+        </tr>
+        <tr>
+            <td>short</td>
+            <td>0</td>
+            <td>2byte</td>
+        </tr>
+        <tr>
+            <td>int</td>
+            <td>0</td>
+            <td>2byte</td>
+        </tr>
+        <tr>
+        <td>Long</td>
+            <td>0L</td>
+            <td>8byte</td>
+        </tr>
+        <tr>
+            <td>flot</td>
+            <td>0.0f</td>
+            <td>4byte</td>
+        </tr>
+        <tr>
+            <td>double</td>
+            <td>0.0d</td>
+            <td>8byte</td>
+            
+        </tr>
+      </table>
+      <h2>Boolen Data Type</h2>
+      <p>The Boolean data type is used to store only two possible values: true and false. This data type is used for simple flags that track true/false conditions.<br><br>The Boolean data type is used to store only two possible values: true and false. This data type is used for simple flags that track true/false conditions.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>Boolean one = false</pre>
+    </div>
+    <h2>Byte Data Type</h2>
+    <p>The byte data type is an example of primitive data type. It isan 8-bit signed two's complement integer. Its value-range lies between -128 to 127 (inclusive). Its minimum value is -128 and maximum value is 127. Its default value is 0.<br><br>The byte data type is used to save memory in large arrays where the memory savings is most required. It saves space because a byte is 4 times smaller than an integer. It can also be used in place of "int" data type.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>short s = 10000, short r = -5000  </pre>
+    </div>
+    <h2>Short Data Type</h2>
+    <p>The short data type is a 16-bit signed two's complement integer. Its value-range lies between -32,768 to 32,767 (inclusive). Its minimum value is -32,768 and maximum value is 32,767. Its default value is 0.<br><br>The short data type can also be used to save memory just like byte data type. A short data type is 2 times smaller than an integer.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>short s = 10000, short r = -5000  </pre>
+    </div>
+    <h2>Int Data Type</h2>
+    <p>The int data type is a 32-bit signed two's complement integer. Its value-range lies between - 2,147,483,648 (-2^31) to 2,147,483,647 (2^31 -1) (inclusive). Its minimum value is - 2,147,483,648and maximum value is 2,147,483,647. Its default value is 0.<br><br>The int data type is generally used as a default data type for integral values unless if there is no problem about memory.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>int a = 100000, int b = -200000</pre>
+    </div>
+    <h2>Long Data Type</h2>
+    <p>The long data type is a 64-bit two's complement integer. Its value-range lies between -9,223,372,036,854,775,808(-2^63) to 9,223,372,036,854,775,807(2^63 -1)(inclusive). Its minimum value is - 9,223,372,036,854,775,808and maximum value is 9,223,372,036,854,775,807. Its default value is 0. The long data type is used when you need a range of values more than those provided by int.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>long a = 100000L, long b = -200000L  </pre>
+    </div>
+    <h2>Float Data Type</h2>
+    <p>The float data type is a single-precision 32-bit IEEE 754 floating point.Its value range is unlimited. It is recommended to use a float (instead of double) if you need to save memory in large arrays of floating point numbers. The float data type should never be used for precise values, such as currency. Its default value is 0.0F.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>float f1 = 234.5f</pre>
+    </div>
+    <h2>Double Data Type</h2>
+    <p>The double data type is a double-precision 64-bit IEEE 754 floating point. Its value range is unlimited. The double data type is generally used for decimal values just like float. The double data type also should never be used for precise values, such as currency. Its default value is 0.0d.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>double d1 = 12.3 </pre>
+    </div>
+    <h2>Char Data Type</h2>
+    <p>The char data type is a single 16-bit Unicode character. Its value-range lies between '\u0000' (or 0) to '\uffff' (or 65,535 inclusive).The char data type is used to store characters.</p>
+    <div>
+        <pre>char letterA = 'A'  </pre>
+    </div>
+    <h2>Char Data Type</h2>
+    <p>The char data type is a single 16-bit Unicode character. Its value-range lies between '\u0000' (or 0) to '\uffff' (or 65,535 inclusive).The char data type is used to store characters.</p>
+    <h4>Example</h4>
+    <div>
+        <pre>char letterA = 'A' </pre>
+    </div>
+    <ul class="pager">
+        <li class="previous"><a href="java.html">previous</a></li>
+            <li class="next"><a href="html.html">Next</a></li>
+            </ul>
+</body></div>
+</html>

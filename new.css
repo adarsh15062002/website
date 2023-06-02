@@ -1,0 +1,27 @@
+.navbar{position: fixed;
+    width: 100%;
+    background-color: green;}
+.shiv{list-style-type: none;
+margin-top: 30px;
+padding: 0px;
+height: 100%;
+background-color: #f0f0f0;
+position: fixed;
+overflow: auto;}
+li a{text-decoration: none;
+float: left;
+display: block;
+padding: 10px 20px;
+color:black;}
+li a:hover{background-color:white;
+color:black}
+.name{width: 800px;
+margin-left: 150px;
+margin-top: -250px;
+}
+p{font-size: 15px;}
+#ada{list-style-type:square;}
+h1{color: brown;}
+h2{color: brown;}
+img{margin-left: 800px;}
+h3{color:  #66004d;}

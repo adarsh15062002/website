@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+       .navbar{position: fixed;
+        width: 100%;
+        background-color: green;}
+    .shiv{list-style-type: none;
+    margin-top:30px;
+    padding: 0px;
+    height: 100%;
+    background-color: #f0f0f0;
+    position: fixed;
+    overflow: auto;}
+    li a{text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color:black;}
+    li a:hover{background-color:white;
+    color:black;}
+
+        h1{text-align: center;
+        background-color: peachpuff;}
+        p{font-size: 20px;}
+        img{border: solid;
+            box-shadow: 10px 10px 10px;
+        }
+        li{font-size: 15px;}
+        h1{margin-top: 50px;}
+        .container{width: 800px;
+    margin-left: 150px;}
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-">
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="logicgate.html">Home</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="">Logic Gate 
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href=""></a>AND gate</li>
+        <li><a href=""></a>OR/XOR gate</li>
+        <li><a href=""></a>NOT gate</li>
+        <li><a href=""></a>NAND gate</li>
+        <li><a href=""></a>NOR gate</li>
+        <li><a href=""></a>EOR gate</li>
+        <li><a href=""></a>ENOR gate</li>
+        </ul>
+        </li>
+        <li><a href="truth.html">truth Table</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        </ul>
+        <form class="navbar-form navbar-left" action="">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-login"></span> Login</a></li>
+                </ul>
+        </div>
+       </nav>
+   <br>
+      <ol class="shiv">
+        <li><a href="">Introduction</a></li>
+        <li><a href="">Boolean algebra</a></li>
+        <li><a href="java.html">Java</a></li>
+        <li><a href="">Java script</a></li>
+        <li><a href="">HTML</a></li>
+        <li><a href="">CSS</a></li>
+        <li><a href="">Bootstrap</a></li>
+      
+      </ol>
+      <div class="container">
+ <h1>Truth Table</h1><hr>
+ <h2>Understanding Truth table</h2>
+ <p>Truth tables help understand the behaviour of logic gates</p>
+ <ol>
+    <li>They show how the input(s) of a logic gate relate to its output(s).</li>
+    <li>The gate input(s) are shown in the left column(s) of the table with all the different possible input combinations. This is normally done by making the inputs count up in binary.</li>
+    <li>The gate output(s) are shown in the right hand side column.</li>
+ </ol>
+ <h2>Truth Table Daigram</h2>
+ <img src="tablediagram.gif">
+ <h3>Drawing Truth Tables for Combined Gates</h3>
+ <p>Truth table cab also help understand the behaviour if combinations of logic gates linked together.</p>
+ <ol>
+    <li>They are drawn in the same way as before but this time adding more colomns in between the input and output columns.</li>
+    <li>Each of the columns show the outputs of stages in the logic circuit.</li>
+ </ol></div>
+    </body>
+</html>
